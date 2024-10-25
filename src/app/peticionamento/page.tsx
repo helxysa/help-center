@@ -1,7 +1,11 @@
+import HomePage from "./HomePage/HomePage"
+import Card from "./Card/Card"
 export default function Peticionamento() {
   return (
-    <div>
-      <h1>Peticionamento</h1>
-    </div>
+    <>
+      <HomePage />
+      <Card />
+    </>
   )
 }
+
